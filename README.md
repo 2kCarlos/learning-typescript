@@ -4,6 +4,10 @@ This is my first time going through JavaScript and TypeScript for real.
 
 I want to understand the workflows in creating, testing, and running web development code with TypeScript and NodeJS.
 
+## Installation of the TypeScript Compiler
+
+1. After NodeJS is installed, run `npm install -g typescript`
+
 ## Resources
 
 I am following a tutorial series from [here](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI). 
