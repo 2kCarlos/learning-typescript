@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Test description. See the difference of var vs. let vs. const [here](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/).
  */
@@ -39,7 +40,8 @@ ninja.age = parseInt("30");
 ninja = {
     name: "Ken",
     belt: "orange",
-    age: 34
+    age: 34,
+    // skills: [] //CANNOT add/remove/change fields!
 };
 console.log(ninja);
 console.log(JSON.stringify(ninja));
@@ -55,4 +57,12 @@ objExample = { "name": "Test" };
 objExample = { "poof": "Hello?" };
 objExample = [];
 var explicitObjExample;
-// explicitObjExample = {}
+// EPISODE 6: Dynamic Types Using the "any" Keyword
+//This is how JavaScript behaves normally! Use this sparingly... (be CAREFUL about over-using this feature!)
+var someAge;
+someAge = 25;
+someAge = "reallyOld";
+var someArray = [];
+someArray.push(5);
+someArray.push("hi");
+var someObject;
