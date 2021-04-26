@@ -78,6 +78,19 @@ let explicitObjExample : {
     age: number,
     beltColor: string
 };
-// explicitObjExample = {}
 
+// EPISODE 6: Dynamic Types Using the "any" Keyword
+//This is how JavaScript behaves normally! Use this sparingly... (be CAREFUL about over-using this feature!)
+let someAge : any;
+someAge = 25;
+someAge = "reallyOld";
+
+let someArray : any[] = [];
+someArray.push(5);
+someArray.push("hi");
+
+let someObject : {
+    name: any,
+    age: any;
+}
 
